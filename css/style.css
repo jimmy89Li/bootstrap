@@ -6,6 +6,12 @@ body{margin:0;padding:0;background-color:snow}
 	border-radius:0;
 }
 
+/* Navbar container */
+.container-fluid{
+	padding-right: 150px;
+	padding-left: 150px;
+}
+
 /* Logo */
 .navbar-brand{
 	height:auto;

@@ -9,5 +9,8 @@ body{margin:0;padding:0;background-color:snow}
 /* Logo */
 .navbar-brand{
 	height:auto;
+	padding: 0 15px;
 }
-.logo{max-width:200px}
+.logo{
+	max-height:50px
+}

@@ -11,6 +11,9 @@ body{margin:0;padding:0;background-color:snow}
 	padding-right: 150px;
 	padding-left: 150px;
 }
+nav > div > ul.nav.navbar-nav.navbar-right > li > ul > form{
+	padding: 10px;
+}
 
 /* Logo */
 .navbar-brand{
@@ -19,4 +22,78 @@ body{margin:0;padding:0;background-color:snow}
 }
 .logo{
 	max-height:50px
+}
+
+/* Silder */
+#slider{
+	border: 1px solid black;
+	height: 300px;
+	margin-top: 100px;
+}
+
+/* Content */
+#cat1{
+	
+}
+#cat1 h2{
+	padding-left: 15px;
+}
+#cat2{
+
+}
+#cat2 h2{
+	padding-left: 15px;
+}
+
+#cat3 h2{
+	padding-left: 15px;
+}
+#cat4{
+	margin-bottom: 20px;
+}
+#cat4 h2{
+	padding-left: 15px;
+}
+
+hr.black{
+	border-top: 1px solid black;
+	margin-top: 20%;	
+}
+
+img.index{
+	border: 1px solid black;
+	max-height: 175px;
+}
+#blog:first-child{
+	margin-top: 100px;
+}
+
+#blogimg img{
+	border: 1px solid black;
+}
+
+h3{
+	margin-top: 1px;
+	color: #337ab7;
+}
+hr{
+	border-top: 1px solid black;
+}
+hr.red{
+	border-top: 1px solid red;
+}
+
+/* Footer */
+footer{
+	height: 300px;
+	background-color: black;
+	color: white;
+	clear: both;
+	padding-top: 20px;
+	margin-top:20px;
+}
+
+/* Media Queries */
+@media (min-width: @screen-md-min){ 
+	
 }
